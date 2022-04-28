@@ -1,9 +1,9 @@
 name: hello world
 on:
   push: 
-    branchs: [main]
+    branches: [main]
 jobs:
   say-hello:
       runs-on: windows-latest
       steps:
-        - run: Hello world
+        - run: echo Hello world

@@ -1,0 +1,9 @@
+name: hello world
+on:
+  push: 
+    branchs: [main]
+jobs:
+  say-hello:
+      runs-on: windows-latest
+      steps:
+        - run: Hello world
